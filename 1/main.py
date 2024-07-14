@@ -13,6 +13,3 @@ def total_salary(path):
             return [sum(salaries), mean(salaries)]
     except FileNotFoundError:
         return 'File not found'
-
-
-print(total_salary(current_dir/"file1.txt"))
